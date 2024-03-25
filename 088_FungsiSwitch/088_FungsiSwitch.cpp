@@ -29,8 +29,37 @@ float pengurangan (float a, float b)
 
 int  main()
 {
-    cout << "===========================" << endl;
-    cout << "MENU" << endl;
-    cout << "1. penjumlahan " << endl;
+    int pilihan;
+
+    do
+    {
+        cout << "===========================" << endl;
+        cout << "MENU" << endl;
+        cout << "1. penjumlahan " << endl;
+        cout << "2. pembagian " << endl;
+        cout << "3. perkalian " << endl;
+        cout << "4. pengurangan " << endl;
+        cout << "5. exit" << endl;
+        cout << "masukan pilihan 1/2/3/4/5 = ";
+        cin >> pilihan;
+
+    }
+}
+
+switch (pilihan)
+{
+case 1:
+    input();
+    cout << "hasil penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+    break;
+case 2:
+    input();
+    cout << "hasil pembagian = " << penjumlahan(bilSatu, bilDua) << endl;
+    break;
+
+
 
 }
+
+   
+
