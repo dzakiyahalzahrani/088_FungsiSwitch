@@ -54,10 +54,16 @@ case 1:
     break;
 case 2:
     input();
-    cout << "hasil pembagian = " << penjumlahan(bilSatu, bilDua) << endl;
+    cout << "hasil pembagian = " << pembagian(bilSatu, bilDua) << endl;
     break;
-
-
+case 3:
+    input();
+    cout << "hasil perkalian = " << perkalian(bilSatu, bilDua) << endl;
+    break;
+case 4:
+    input();
+    cout << "hasil pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+    break;
 
 }
 
