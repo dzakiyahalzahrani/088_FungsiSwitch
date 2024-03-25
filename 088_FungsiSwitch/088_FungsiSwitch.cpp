@@ -18,3 +18,19 @@ float pembagian(float a, float b)
 {
     return a / b;
 }
+float perkalian(float a, float b)
+{
+    return a * b;
+}
+float pengurangan (float a, float b)
+{
+    return a - b;
+}
+
+int  main()
+{
+    cout << "===========================" << endl;
+    cout << "MENU" << endl;
+    cout << "1. penjumlahan " << endl;
+
+}
